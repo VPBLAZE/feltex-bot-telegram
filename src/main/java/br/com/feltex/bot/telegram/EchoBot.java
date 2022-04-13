@@ -38,7 +38,7 @@ public class EchoBot extends TelegramLongPollingBot {
 
         var resposta = "";
 
-        if ("data".equals(textoMensagem)) {
+        if ("data".equals(textoMensagem)) {dd
             resposta = getData();
         } else if (textoMensagem.startsWith("hora")) {
             resposta = getHora();
