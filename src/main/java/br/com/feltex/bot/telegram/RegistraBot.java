@@ -9,7 +9,7 @@ public class RegistraBot {
     public static void main(String[] args) {
         try {
             TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
-            telegramBotsApi.registerBot(new EchoBot());
+            telegramBotsApi.registerBot(new EchoBot(http://t.me/Canalfeltex_bot));
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }
